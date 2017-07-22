@@ -1,0 +1,97 @@
+/*background*/
+
+header {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+.characterWrapper {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#gameMessage {
+  text-align: center;
+  font-size: 25px;
+}
+#choose-enemy-button {
+  visibility: hidden;
+}
+#restart-button {
+  visibility: hidden;
+}
+#turn-counter {
+  font-size: 150%;
+}
+
+
+/*character information*/
+
+.character {
+  cursor: pointer;
+  display: inline-block;
+}
+.character img {
+  border: 0 none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: auto;
+}
+.character-name {
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-size: 20px;
+}
+.character-health {
+  text-align: center;
+}
+
+/*automation*/
+
+.attack {
+  text-align: center;
+}
+.action {
+  margin: 15px 0px;
+}
+#attack-button{
+	visibility: hidden;
+}
+.btn {
+	background: #000;
+	color: #DBD2C6;	
+}
+.enemy {
+	margin: 0 10px 0 10px;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+}
+#attacker {
+}
+
+/*available chracters*/
+
+#available-to-attack-section {
+  float: right;
+}
+#available-to-attack-section img {
+	height: 100px;
+  width: auto;
+}
+
+/*defender*/
+
+#defender-name {
+  text-align: center;
+}
+#defender-image {
+}
+#defender-health {
+  text-align: center;
+}
+
